@@ -7,7 +7,7 @@ const ProfileSummary: React.FC = () => {
   const user = useUserStore(state => state.user);
   const balanceRef = useRef<number>(null);
   const lottieRef = useRef<LottieView>(null);
-  const [showLottie, setShowLottie] = useState<boolean>(true);
+  const [showLottie, setShowLottie] = useState<boolean>(false);
 
   useEffect(() => {
     const bal = user?.balance ?? null;

@@ -64,7 +64,7 @@ const ProfileScreen: React.FC = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {flex: 1, backgroundColor: '#fafbfc', padding: 18},
+  container: {flex: 1, backgroundColor: '#F5F5F5', padding: 18},
   loading: {
     alignItems: 'center',
     justifyContent: 'center',
