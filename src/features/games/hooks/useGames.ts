@@ -14,7 +14,7 @@ export const useGames = (skipInitialFetch: boolean = false) => {
     const loadGames = useCallback(async () => {
         try {
             const { data, err } = await fetchGames();
-            // console.log('Fetched games: ', data);
+            console.log('Fetched games: ', data);
             data && setGamesData(data);
             if (err) {
                 console.log('Error fetching games:', err);

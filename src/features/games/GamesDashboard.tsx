@@ -106,7 +106,7 @@ export const GamesDashboard = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {flex: 1},
+  container: {flex: 1, backgroundColor: '#F5F5F5'},
   verticallyCentered: {
     justifyContent: 'center',
   },
