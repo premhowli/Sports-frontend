@@ -57,6 +57,8 @@ This is one way to run your app — you can also build it directly from Xcode.
 
 You've successfully run the app. :partying_face:
 
+## Details & disclaimers
+
 ### Ai Usage at coding
 Took help of copilot using chat gpt 4.1
 
