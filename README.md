@@ -72,5 +72,12 @@ Took help of copilot using chat gpt 4.1
  - Navigation and layout are fully responsive and follow native platform guidelines.
  - This structure makes the app easy to maintain, extend.
 
+ ### Technical Gotchas!
+
+ - if you see all game has ended. Just restart the server. 
+ - If you have predicted games, and want to try a fresh. change gameIds in src/data/games.ts. Since old id's will be fetched from storage, it will already show predicted.
+Alternatively install a fresh app. and all things work again.
+
+
 
 
